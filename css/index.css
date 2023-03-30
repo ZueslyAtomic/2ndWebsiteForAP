@@ -16,12 +16,13 @@ button {
     height: 55px;
     border-radius: 15px;
     border: hidden;
-    margin: 100px;
+    margin: 20px 100px;
     text-align: center;
 }
 
 div {
     display: flex;
+    align-items: center;
 }
 
 a {
@@ -33,6 +34,22 @@ a:hover {
     color: deeppink;
     cursor: pointer;
     text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+.a {
+    flex-direction: column;
+}
+
+.b {
+    flex-direction: column;
+}
+
+.c {
+    flex-direction: column;
 }
 
 @media (max-width: 480px) {
