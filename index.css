@@ -10,3 +10,33 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
+button {
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    border: hidden;
+    margin: 30px;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+a:hover {
+    color: deeppink;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+}
