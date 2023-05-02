@@ -9,6 +9,7 @@ body {
     text-align: center;
     margin: 0;
     overflow: hidden;
+    font-size: 30px;
 }
 
 button {
@@ -40,15 +41,15 @@ p {
     text-align: center;
 }
 
-.a {
+.animals {
     flex-direction: column;
 }
 
-.b {
+.hobbies {
     flex-direction: column;
 }
 
-.c {
+.games {
     flex-direction: column;
 }
 
