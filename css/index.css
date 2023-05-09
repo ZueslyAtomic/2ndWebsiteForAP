@@ -24,31 +24,33 @@ button {
 div {
     display: flex;
     align-items: center;
+    margin: 5;
+    padding: 5;
+    opacity: 0.95;
 }
 
 a {
     text-decoration: none;
     color: deepskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.35;
+    text-shadow: 2px 2px blue;
 }
 
 a:hover {
     color: deeppink;
     cursor: pointer;
     text-decoration: underline;
+    cursor: grab;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p {
     text-align: center;
 }
 
-.animals {
-    flex-direction: column;
-}
-
-.hobbies {
-    flex-direction: column;
-}
-
+.animals,
+.hobbies,
 .games {
     flex-direction: column;
 }
